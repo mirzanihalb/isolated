@@ -1,0 +1,36 @@
+.navbar{
+    border: 3px solid black;
+    display: flex;
+    
+}
+.navbar_items{
+    /* border: 2px solid grey; */
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+    margin: 1rem 2rem;
+    font-weight: bolder;
+    
+    
+}
+#mode{
+    margin-left:auto;
+    display: flex;
+    order: 1;
+}
+#company{
+    font-family:cursive;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: larger;
+}
+.white_mode{
+    background-color: white;
+    color: black;
+}
+.black_mode{
+    background-color: black;
+    color: white;
+}
+.custom_link{
+    text-decoration: none;
+}

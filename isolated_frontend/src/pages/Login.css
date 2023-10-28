@@ -1,0 +1,47 @@
+.main{
+    display: grid;
+
+    grid-template-columns: 5fr 3fr;
+    height:85vh
+}
+.left{
+    border:3px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.right{
+    border:3px solid grey;
+    
+}
+.login_form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+    
+    margin-top: 200px;
+    justify-items: center;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+.lined{
+    display: flex;
+    gap:0.5rem;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+
+}
+#reachus{
+    margin-top: 4rem;
+    font-size: 3em;
+    font-weight: bold;
+    
+}
