@@ -16,7 +16,7 @@ function Landing(props){
     <div className="main">
           <div className="left">
             {/* {props.showhome?<Home/>:<Contact/>} */}
-            aajdpaihnfvqnpvipqdivipqbqpdka;vpd
+            <div>"Share Rooms, Share Questions, Share Stories."</div>
             
         </div>
           

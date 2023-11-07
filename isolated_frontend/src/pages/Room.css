@@ -2,16 +2,16 @@
     display: grid;
 
     grid-template-columns: 1fr 4fr;
-    height: 100%;
+    min-height: 100%;
 
 }
 .room_left{
-    border:2px solid grey
+    /* border:2px solid grey */
 }
 .room_right{
-    border: 2px solid grey;
-    height: 100%;
-    overflow-y: scroll;
+    /* border: 2px solid grey; */
+    /* height: 100%;
+    overflow-y: scroll; */
     
 
 }
@@ -104,10 +104,16 @@ button:hover{
 }
 .reply_button{
     display: flex;
+    
 }
 .logo{
     width: 40px;
     height: 40px;
 
     margin: 5px;
+}
+.text_ques{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

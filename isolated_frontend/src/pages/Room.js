@@ -262,7 +262,7 @@ function Room(props){
                             {element[1].map((reply,i)=>(
                                 <div className="reply_block_item">
                                 <img src={user_logo} alt="" className="logo"/>
-                                {reply}
+                                <span><div className="text_ques">{reply}</div></span>
                                  </div>
                             ))}
                             <div className="reply_button">

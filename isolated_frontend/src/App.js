@@ -41,7 +41,8 @@ function App() {
     <div className="App" id={mode}>
       
       <Router>
-      <header><Navbar  toggle={togglemode} userloggedin={userloggedin} setUserLoggedIn={setUserLoggedIn}/></header>
+      <nav><Navbar  toggle={togglemode} userloggedin={userloggedin} setUserLoggedIn={setUserLoggedIn}/></nav>
+      <div className='main_body'>
         <Routes>
           
           <Route path='' element={<Home/>}/>
@@ -49,9 +50,11 @@ function App() {
           <Route path='/contact' element={<Contact/>}/>
           <Route path='/room' element={<Room userloggedin={userloggedin}/>}/>
         </Routes>
+      </div>
       </Router>
       
       <footer>@copyrighths theCompany2023</footer>
+      
       
       
     </div>

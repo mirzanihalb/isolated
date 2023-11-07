@@ -24,7 +24,7 @@ function Navbar(props){
 
   
     return (
-        <div className="navbar">
+        <nav className="navbar">
           <div className="navbar_items" id="company">@theCompany</div>
           <div className="navbar_items" ><Link to={""}>Home</Link></div>
           
@@ -39,7 +39,7 @@ function Navbar(props){
           </div>
           
           
-        </div>
+        </nav>
       );
 }
 export default Navbar;

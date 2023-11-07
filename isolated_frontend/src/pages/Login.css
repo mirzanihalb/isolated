@@ -2,18 +2,20 @@
     display: grid;
 
     grid-template-columns: 5fr 3fr;
-    height:85vh
+    /* height:85vh */
+    
 }
 .left{
-    border:3px solid grey;
+    /* border:3px solid grey; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 10em;
 
 }
 .right{
-    border:3px solid grey;
+    /* border:3px solid grey; */
     
 }
 .login_form{

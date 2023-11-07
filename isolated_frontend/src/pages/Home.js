@@ -6,9 +6,9 @@ function Home(){
             @theCompany
         </div>
         <div>
-            <p>line oneeeeeeeeeeeeeeeeeeeeeeeeee</p>
-            <p>line twoooooooooooo</p>
-            <p>line threeee</p>
+            <p>Learn Develop Deliver</p>
+            {/* <p>line twoooooooooooo</p>
+            <p>line threeee</p> */}
             
         </div>
         </div>
